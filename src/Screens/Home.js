@@ -71,14 +71,14 @@ function Home() {
                         <div className="campus-col">
                             <img src={intermediate} alt="" />
                             <div className="layer text-center">
-                                <h5>Matriculation(Government High Schools Of Borigumma - 2017, status-passed, 78%)</h5>
+                                <h5>intermediate(Sri Chaitanya Junior College Visakhapatanam - 2019, status-passed, 78.4%)</h5>
 
                             </div>
                         </div>
                         <div className="campus-col">
                             <img src={graduation} alt="" />
                             <div className="layer text-center">
-                                <h5>Matriculation(Government High Schools Of Borigumma - 2017, status-passed, 78%)</h5>
+                                <h5>Graduation(OUTR Bhubaneswar - 2024, status-passed, 7.98CGPA)</h5>
                             </div>
                         </div>
                     </div>
