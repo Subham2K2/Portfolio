@@ -62,20 +62,20 @@ function Home() {
 
 
                     <div className="row">
-                        <div className="campus-col" data-aos="fade-right">
+                        <div className="campus-col">
                             <img src={school} alt="" />
                             <div className="layer text-center">
                                 <h5>Matriculation(Government High Schools Of Borigumma - 2017, status-passed, 78%)</h5>
                             </div>
                         </div>
-                        <div className="campus-col" data-aos="fade-up">
+                        <div className="campus-col">
                             <img src={intermediate} alt="" />
                             <div className="layer text-center">
                                 <h5>Matriculation(Government High Schools Of Borigumma - 2017, status-passed, 78%)</h5>
 
                             </div>
                         </div>
-                        <div className="campus-col" data-aos="fade-left">
+                        <div className="campus-col">
                             <img src={graduation} alt="" />
                             <div className="layer text-center">
                                 <h5>Matriculation(Government High Schools Of Borigumma - 2017, status-passed, 78%)</h5>
@@ -87,7 +87,7 @@ function Home() {
                 <div className='container' style={{ marginTop: "4rem", height: "60vh", width: "70%" }}>
                     <div className='row d-flex align-items-center justify-content-center' style={{}}>
                         {/* Text Section */}
-                        <div className='col-md-6 text-center' data-aos="fade-right">
+                        <div className='col-md-6 text-center'>
                             <h4>Let Me Introduce Myself</h4>
                             <p>
                                 Hey there 👋
@@ -96,7 +96,7 @@ function Home() {
                         </div>
 
                         {/* Image Section */}
-                        <div className='col-md-6 d-flex justify-content-center align-items-center text-center' data-aos="fade-left">
+                        <div className='col-md-6 d-flex justify-content-center align-items-center text-center'>
                             <img
                                 src={avatar}
                                 alt="About Me"
