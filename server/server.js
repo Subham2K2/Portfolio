@@ -8,6 +8,7 @@ const connectDB = require('./utils/db')
 //Useage of CORS
 var corsOptions = {
     origin: 'http://localhost:3000',
+    origin: 'https://main--cheery-valkyrie-693659.netlify.app',
     methods: 'GET, POST, PUT, DELETE, PATCH, HEAD',
     credentials: true
 }
