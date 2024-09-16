@@ -32,7 +32,7 @@ function Cards() {
                                         animations using HTML, CSS
                                     </span>
                                     <br />
-                                    <a className='btn btn-danger'>Github</a>
+                                    <a className='btn btn-danger' href='/'>Github</a>
                                 </p>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ function Cards() {
                                         Vlogs and My Vlogs where Users can browse, create, edit, and delete vlogs as needed
                                     </span>
                                     <br />
-                                    <a className='btn btn-danger'>Github</a>
+                                    <a className='btn btn-danger' href='/'>Github</a>
                                 </p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ function Cards() {
                                         Objective of making this website was to learn HTML CSS and JavaScript
                                     </span>
                                     <br />
-                                    <a className='btn btn-danger'>Github</a>
+                                    <a className='btn btn-danger' href='/'>Github</a>
                                 </p>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ function Cards() {
                                         edit, and delete contacts as needed
                                     </span>
                                     <br />
-                                    <a className='btn btn-danger'>Github</a>
+                                    <a className='btn btn-danger' href='/'>Github</a>
                                 </p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ function Cards() {
                                     <br />
                                     <span className='text-white'>This website is under developement phase</span>
                                     <br />
-                                    <a className='btn btn-danger'>Github</a>
+                                    <a className='btn btn-danger' href='/'>Github</a>
                                 </p>
                             </div>
                         </div>

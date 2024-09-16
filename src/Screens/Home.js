@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import graduation from '../images/graduation.jpg'
 import school from '../images/school.jpg'
 import intermediate from '../images/campus.jpg'
@@ -8,22 +8,22 @@ import Typewriter from "typewriter-effect";
 
 function Home() {
 
-    const [title, setTitle] = useState('');
-    const name = "My name is Subham Patnaik"
-    let index = 1
+    // const [title, setTitle] = useState('');
+    // const name = "My name is Subham Patnaik"
+    // let index = 1
 
-    useEffect(() => {
-        const typeWriter = () => {
-            setTitle(name.slice(0, index));
-            index = index > name.length ? 1 : index + 1
+    // useEffect(() => {
+    //     const typeWriter = () => {
+    //         setTitle(name.slice(0, index));
+    //         index = index > name.length ? 1 : index + 1
 
-            setTimeout(() => {
-                typeWriter();
-            }, 200)
-        };
+    //         setTimeout(() => {
+    //             typeWriter();
+    //         }, 200)
+    //     };
 
-        typeWriter();
-    }, [])
+    //     typeWriter();
+    // }, [])
 
     // typeWriter();
     return (

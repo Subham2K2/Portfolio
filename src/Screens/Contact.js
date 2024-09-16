@@ -205,7 +205,7 @@ function Contact() {
                         <div className="col-md-3 mb-4" data-aos="fade-right">
                             <div className="card shadow-lg" style={{ height: '10rem' }}>
                                 <div className="card-body d-flex justify-content-center align-items-center">
-                                    <a className="d-block mb-2">
+                                    <a className="d-block mb-2" href='/'>
                                         <FontAwesomeIcon icon={faMapMarkerAlt} />
                                     </a>
                                 </div>
@@ -214,7 +214,7 @@ function Contact() {
                         <div className="col-md-3 mb-4" data-aos="fade-up">
                             <div className="card shadow-lg" style={{ height: '10rem' }}>
                                 <div className="card-body d-flex justify-content-center align-items-center">
-                                    <a className="d-block mb-2">
+                                    <a className="d-block mb-2" href='/'>
                                         <FontAwesomeIcon icon={faPhone} />
                                     </a>
                                 </div>
@@ -223,7 +223,7 @@ function Contact() {
                         <div className="col-md-3 mb-4" data-aos="fade-left">
                             <div className="card shadow-lg" style={{ height: '10rem' }}>
                                 <div className="card-body d-flex justify-content-center align-items-center">
-                                    <a className="d-block mb-2">
+                                    <a className="d-block mb-2" href='/'>
                                         <FontAwesomeIcon icon={faEnvelope} />
                                     </a>
                                 </div>
@@ -237,6 +237,7 @@ function Contact() {
                 <h4 className='text-center'>Address</h4>
                 <div className="embed-responsive" style={{ position: "relative", overflow: "hidden", height: "100%" }}>
                     <iframe
+                        title='dbsrfuovcjs'
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15085.17962240529!2d82.53871029334407!3d19.050767246950457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3abffa8d1836b5%3A0x43dc280ce43b79e5!2sBorigumma%2C%20Odisha%20764056!5e0!3m2!1sen!2sin!4v1726286082325!5m2!1sen!2sin"
                         style={{ position: "absolute", top: 0, left: 0, height: "100%", width: "100%", border: "0" }}
                         allowFullScreen=""

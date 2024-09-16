@@ -24,8 +24,8 @@ function Aboutme() {
                         <br />
                         <p>My Certifications</p>
                         <ul style={{ listStyle: 'none' }}>
-                            <li><a className='btn btn-secondary mb-2' href="">Java Certifications</a></li>
-                            <li><a className='btn btn-secondary' href=''>AWS Cloud Foundation</a></li>
+                            <li><a className='btn btn-secondary mb-2' href='/'>Java Certifications</a></li>
+                            <li><a className='btn btn-secondary' href='/'>AWS Cloud Foundation</a></li>
                         </ul>
                     </div>
 
