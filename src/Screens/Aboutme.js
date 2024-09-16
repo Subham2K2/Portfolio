@@ -1,5 +1,4 @@
 import React from 'react'
-import { DiAws } from 'react-icons/di';
 import { DiVisualstudio } from 'react-icons/di';
 // import { Link } from 'react-router-dom'
 import './Aboutme.css'
@@ -7,7 +6,6 @@ import about from '../images/about.png';
 import { faReact, faNodeJs, faJava, faHtml5, faCss3Alt, faJs, faGithub, faMdb, faAws } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
 
 function Aboutme() {

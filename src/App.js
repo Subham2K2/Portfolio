@@ -4,8 +4,7 @@ import Navbar from './components/Navbar';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from './Screens/Home';
 import Contact from './Screens/Contact';
