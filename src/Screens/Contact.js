@@ -165,10 +165,7 @@ function Contact() {
                     {/* Text Section */}
                     <div className="col-md-6 col-lg-5 text-center">
                         <div className='d-flex justify-content-center align-items-center text-center'>
-                            <h4>Let's Chat!! Send me a message</h4>
-                            <a className="d-block mb-2">
-                                <FontAwesomeIcon icon={faEnvelope} />
-                            </a>
+                            <h4>Send me a message</h4>
                         </div>
                     </div>
                     {/* Form Section */}
