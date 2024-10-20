@@ -24,7 +24,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/aboutme' element={<Aboutme />} />
-          <Route
+          {/* <Route
             exact
             path='/projects'
             element={
@@ -32,7 +32,21 @@ function App() {
                 <Cards />
               </Suspense>
             }
-          />
+          /> */}
+          {/* <Route
+            exact
+            path='/projects'
+            element={
+              <Suspense fallback={<div>Loading Projects...</div>}>
+                <Cards />
+              </Suspense>
+            }
+          /> */}
+          <Route exact path='/projects' element={
+            <Suspense fallback={<Projects />}>
+              <Cards />
+            </Suspense>
+          } />
         </Routes>
       </div>
       <Footer />
