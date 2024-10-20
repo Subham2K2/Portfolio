@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import {
@@ -24,24 +23,6 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/aboutme' element={<Aboutme />} />
-          {/* <Route
-            exact
-            path='/projects'
-            element={
-              <Suspense fallback={<Projects />}>
-                <Cards />
-              </Suspense>
-            }
-          /> */}
-          {/* <Route
-            exact
-            path='/projects'
-            element={
-              <Suspense fallback={<div>Loading Projects...</div>}>
-                <Cards />
-              </Suspense>
-            }
-          /> */}
           <Route exact path='/projects' element={
             <Suspense fallback={<Projects />}>
               <Cards />
